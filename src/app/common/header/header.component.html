@@ -1,0 +1,22 @@
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 logo d-flex align-items-center">Logo</div>
+            <div class="col-9 right-menu d-flex justify-content-end align-items-center">
+                <div ngbDropdown class="d-inline-block">
+                    <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Login</button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                        <a routerLink="/donor-login" ngbDropdownItem>Donor Login</a>
+                        <a routerLink="/hospital-login" ngbDropdownItem>Hospital Login</a>
+                    </div>
+                </div>
+                <div ngbDropdown class="d-inline-block ml-3">
+                    <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Register</button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                        <a ngbDropdownItem routerLink="/donor-registration" routerLinkActive="active">Donor Register</a>
+                        <a ngbDropdownItem routerLink="/hospital-registration" routerLinkActive="active">Hospital Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
