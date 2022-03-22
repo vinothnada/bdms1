@@ -1,0 +1,18 @@
+
+/*-----------------------------------------*/
+/* BDMS- Blood Donor Management System */
+/*-----------------------------------------*/
+/* Backgrounds */
+/*-----------------------------------------*/
+
+	#slider:before {
+		background-image: url(../images/backgrounds/bg.jpg);
+	}
+	
+	#page-title:before {
+		background-image: url(../images/backgrounds/bg1.jpg);
+	}
+	
+	footer:before {
+		background-image: url(../images/backgrounds/bg1.jpg);
+	}

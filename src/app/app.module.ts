@@ -10,6 +10,13 @@ import { DonorRegisterComponent } from './donor/donor-register/donor-register.co
 import { HospitalLoginComponent } from './hospital/hospital-login/hospital-login.component';
 import { HospitalRegisterComponent } from './hospital/hospital-register/hospital-register.component';
 import { StaticDetailsComponent } from './common/sidebar/static-details/static-details.component';
+import { DonorDashboardComponent } from './donor/donor-dashboard/donor-dashboard.component';
+import { DonorProfileComponent } from './donor/donor-profile/donor-profile.component';
+import { HospitalDashboardComponent } from './hospital/hospital-dashboard/hospital-dashboard.component';
+import { HospitalProfileComponent } from './hospital/hospital-profile/hospital-profile.component';
+import { DonorNavigationComponent } from './common/donor-navigation/donor-navigation.component';
+import { AdminNavigationComponent } from './common/admin-navigation/admin-navigation.component';
+import { DonorHeaderComponent } from './common/donor-header/donor-header.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +26,14 @@ import { StaticDetailsComponent } from './common/sidebar/static-details/static-d
     DonorRegisterComponent,
     HospitalLoginComponent,
     HospitalRegisterComponent,
-    StaticDetailsComponent
+    StaticDetailsComponent,
+    DonorDashboardComponent,
+    DonorProfileComponent,
+    HospitalDashboardComponent,
+    HospitalProfileComponent,
+    DonorNavigationComponent,
+    AdminNavigationComponent,
+    DonorHeaderComponent,
   ],
   imports: [
     BrowserModule,

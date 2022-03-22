@@ -1,0 +1,17 @@
+<ngb-accordion #acc="ngbAccordion">
+    <ngb-panel>
+        <ng-template ngbPanelTitle>
+            <div (click)="goToPage('donor/dashboard')">Events </div>
+          </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+          <div (click)="goToPage('donor/profile')">Profile </div>
+        </ng-template>
+  </ngb-panel>
+  <ngb-panel>
+    <ng-template ngbPanelTitle>
+        <div (click)="goToPage('donor/messages')">Messages </div>
+      </ng-template>
+</ngb-panel>
+  </ngb-accordion>

@@ -1,3 +1,4 @@
+<app-header></app-header>
 <div class="container">
     <div class="wrap w-100 d-flex justify-content-around">
         <div class="side-bar-static">
@@ -13,62 +14,55 @@
                         your contact preferences. If you have not done so already, you will need to register your
                         hospital
                     </p>
-                </div>
+                </div>                
             </div>
+            <form id="hospitalregistar" name='hospitalregistar' action="" method="post">
             <div class="row ml-0 mr-0 mt-5">
                 <div class="col-12">
                     <h3>SIGN UP</h3>
                 </div>
-
-               
                 <div class="col-6">
-
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <input type="email" class="form-control" id="hospitalId" name="hospitalId"
                             placeholder="Hospital ID">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputPassword1"
+                        <input type="text" class="form-control" id="email" name="email"
                             placeholder="Blood Bank Admin Email">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">
+                        <input type="text" class="form-control" id="city" name="city" placeholder="City">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Contact 2">
+                        <input type="text" class="form-control" id="contact2" name="contact2" placeholder="Contact 2">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1"
+                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
                             placeholder="Confirm Password">
                     </div>
-
                 </div>
-
                 <div class="col-6">
-                    
-
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <input type="email" class="form-control" id="hospitalName" name="hospitalName"
                             placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputPassword1"
-                            placeholder="Distric">
+                        <input type="text" class="form-control" id="district" name="district"
+                            placeholder="District">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Contact 1">
+                        <input type="text" class="form-control" id="contact1" name="contact1" placeholder="Contact 1">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1"
+                        <input type="password" class="form-control" id="password" name="password"
                             placeholder="Password">
                     </div>
-
                 </div>
                 <div class="col-12 d-flex justify-content-end">
-                    <div class="btn btn-primary">Register Now</div>
+                    <input class="btn btn-primary" type="submit" value="Register Now">
                 </div>
-
             </div>
+        </form>
         </div>
     </div>
 </div>

@@ -1,0 +1,72 @@
+<app-donor-header></app-donor-header>
+<div class="container">
+    <div class="wrap w-100 d-flex justify-content-around">
+        <div class="side-bar-static">
+            <app-donor-navigation></app-donor-navigation>
+        </div>
+        <div class="right-bar mt-5">
+            <div class="row ml-0 mr-0">
+                <div class="w-100 desc">
+                    <h2>Edit Profile</h2>
+                </div>
+            </div>
+            <form id="donerprofile" name='donerprofile' action="" method="post">
+            <div class="row ml-0 mr-0 mt-5">
+                <div class="col-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="nic" name="nic"
+                            placeholder="NIC">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="email" name="email"
+                            placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="city" name="city" placeholder="City">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="contact2" name="contact2" placeholder="Contact 2">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" name="bloodGroup"  id="bloodGroup">
+                            <option selected="selected" value="0">Select a Blood Group</option>
+                            <option value="O+"> O  + </option>
+                            <option value="O-"> O  - </option>
+                            <option value="A+"> A  + </option>
+                            <option value="A-"> A  - </option>
+                            <option value="B+"> B  + </option>
+                            <option value="B-"> B  - </option>
+                            <option value="AB+"> AB + </option>
+                            <option value="AB-"> AB - </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="firstName" name="firstName"
+                            placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="lastName" name="lastName"
+                            placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="district" name="district"
+                            placeholder="District">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="contact1" name="contact1" placeholder="Contact 1">
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-control" id="dob" name="dob"
+                            placeholder="Date Of Birth">
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-end">
+                    <input class="btn btn-secondary" type="submit" value="Update">
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
